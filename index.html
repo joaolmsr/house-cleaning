@@ -1,228 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap');
-*{box-sizing:border-box;margin:0;padding:0}
-.p{font-family:'Inter',sans-serif;background:#fff;overflow-x:hidden;color:#1a1a1a}
-.serif{font-family:'Cormorant Garamond',serif}
+  <title>Britt Cleaning Services · Melbourne, FL</title>
 
-.hero{background:#0d2b2b;min-height:340px;display:grid;grid-template-columns:1fr 1fr;overflow:hidden}
-.hero-left{padding:52px 40px;display:flex;flex-direction:column;justify-content:center}
-.hero-eyebrow{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#5ac3a0;font-weight:500;margin-bottom:16px}
-.hero h1{font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:400;line-height:1.15;color:#fff;margin-bottom:16px}
-.hero h1 em{font-style:italic;color:#5ac3a0}
-.hero-sub{font-size:13px;color:rgba(255,255,255,.5);font-weight:300;margin-bottom:28px;line-height:1.6;max-width:320px}
-.hero-btns{display:flex;gap:10px;flex-wrap:wrap}
-.btn-g{background:#5ac3a0;color:#0d2b2b;font-size:12px;font-weight:500;padding:11px 20px;border-radius:5px;border:none;cursor:pointer;font-family:'Inter',sans-serif;text-decoration:none;display:inline-block}
-.btn-o{background:transparent;color:#fff;font-size:12px;padding:10px 20px;border-radius:5px;border:.5px solid rgba(255,255,255,.3);cursor:pointer;font-family:'Inter',sans-serif;text-decoration:none;display:inline-block}
-.hero-right{position:relative;overflow:hidden;min-height:280px}
-.hero-img{width:100%;height:100%;object-fit:cover;display:block}
-.hero-img-overlay{position:absolute;inset:0;background:linear-gradient(90deg,#0d2b2b 0%,transparent 40%)}
+  <!-- SEO básico -->
+  <meta name="description" content="Professional residential and commercial cleaning services in Melbourne, FL, Viera, Cocoa Beach, Melbourne Beach, and Indialantic." />
 
-.trust{background:#5ac3a0;padding:12px 32px;display:flex;gap:24px;justify-content:center;flex-wrap:wrap}
-.ti{font-size:11px;font-weight:500;color:#0d2b2b;display:flex;align-items:center;gap:6px}
-.td{width:5px;height:5px;background:#0d2b2b;border-radius:50%;opacity:.45}
+  <!-- Ícone -->
+  <link rel="icon" type="image/png" href="./logo-bg.png" />
+  <link rel="stylesheet" href="./responsive.css">
 
-.section{padding:52px 40px;max-width:900px;margin:0 auto}
-.label{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#5ac3a0;font-weight:500;margin-bottom:10px}
-.section h2{font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:400;line-height:1.2;margin-bottom:20px;color:#0d2b2b}
-.section p{font-size:13px;color:#555;line-height:1.65;max-width:560px}
+</head>
+<body>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap');
+  *{box-sizing:border-box;margin:0;padding:0}
+  .p{font-family:'Inter',sans-serif;background:#fff;overflow-x:hidden;color:#1a1a1a}
+  .serif{font-family:'Cormorant Garamond',serif}
 
-.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:3px;margin-top:32px;border-radius:12px;overflow:hidden}
-.about-img-block{position:relative;min-height:260px;overflow:hidden}
-.about-img-block img{width:100%;height:100%;object-fit:cover;display:block}
-.about-text-block{background:#f7f7f5;padding:32px 28px;display:flex;flex-direction:column;justify-content:center}
-.about-text-block h3{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;color:#0d2b2b;margin-bottom:10px;line-height:1.25}
-.about-text-block p{font-size:12px;color:#666;line-height:1.65;margin-bottom:12px}
-.about-text-block p:last-child{margin-bottom:0}
+  .hero{background:#0d2b2b;min-height:340px;display:grid;grid-template-columns:1fr 1fr;overflow:hidden}
+  .hero-left{padding:52px 40px;display:flex;flex-direction:column;justify-content:center}
+  .hero-eyebrow{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#5ac3a0;font-weight:500;margin-bottom:16px}
+  .hero h1{font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:400;line-height:1.15;color:#fff;margin-bottom:16px}
+  .hero h1 em{font-style:italic;color:#5ac3a0}
+  .hero-sub{font-size:13px;color:rgba(255,255,255,.5);font-weight:300;margin-bottom:28px;line-height:1.6;max-width:320px}
+  .hero-btns{display:flex;gap:10px;flex-wrap:wrap}
+  .btn-g{background:#5ac3a0;color:#0d2b2b;font-size:12px;font-weight:500;padding:11px 20px;border-radius:5px;border:none;cursor:pointer;font-family:'Inter',sans-serif;text-decoration:none;display:inline-block}
+  .btn-o{background:transparent;color:#fff;font-size:12px;padding:10px 20px;border-radius:5px;border:.5px solid rgba(255,255,255,.3);cursor:pointer;font-family:'Inter',sans-serif;text-decoration:none;display:inline-block}
+  .hero-right{position:relative;overflow:hidden;min-height:280px}
+  .hero-img{width:100%;height:100%;object-fit:cover;display:block}
+  .hero-img-overlay{position:absolute;inset:0;background:linear-gradient(90deg,#0d2b2b 0%,transparent 40%)}
 
-.services-wrap{background:#0d2b2b;padding:52px 0}
-.services-inner{max-width:900px;margin:0 auto;padding:0 40px}
-.services-inner .label{color:#5ac3a0}
-.services-inner h2{color:#fff}
-.svc-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:3px;margin-top:28px}
-.svc-card{position:relative;overflow:hidden;border-radius:4px;min-height:200px; transition: 0.3s;}
-.svc-card:hover {cursor:pointer; transform: scale(1.02); box-shadow: 0 4px 15px rgba(0,0,0,0.3);}
-.svc-card img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(.55)}
-.svc-overlay{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:16px 14px;background:linear-gradient(0deg,rgba(0,0,0,.7) 0%,transparent 60%)}
-.svc-overlay h3{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:400;color:#fff;margin-bottom:4px;line-height:1.2}
-.svc-overlay p{font-size:10px;color:rgba(255,255,255,.6);line-height:1.4}
+  .trust{background:#5ac3a0;padding:12px 32px;display:flex;gap:24px;justify-content:center;flex-wrap:wrap}
+  .ti{font-size:11px;font-weight:500;color:#0d2b2b;display:flex;align-items:center;gap:6px}
+  .td{width:5px;height:5px;background:#0d2b2b;border-radius:50%;opacity:.45}
 
-.areas-wrap{background:#f7f7f5;padding:52px 40px}
-.areas-inner{max-width:900px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
-.areas-map{border-radius:12px;overflow:hidden;min-height:240px}
-.areas-map img{width:100%;height:100%;object-fit:cover;display:block;border-radius:12px}
-.areas-pills{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}
-.pill{background:#fff;border:.5px solid #ddd;border-radius:20px;padding:7px 16px;font-size:12px;font-weight:500;color:#0d2b2b;display:flex;align-items:center;gap:6px}
-.pill-dot{width:5px;height:5px;background:#5ac3a0;border-radius:50%}
+  .section{padding:52px 40px;max-width:900px;margin:0 auto}
+  .label{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#5ac3a0;font-weight:500;margin-bottom:10px}
+  .section h2{font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:400;line-height:1.2;margin-bottom:20px;color:#0d2b2b}
+  .section p{font-size:13px;color:#555;line-height:1.65;max-width:560px}
 
-.why-wrap{padding:52px 40px;max-width:900px;margin:0 auto}
-.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;margin-top:28px}
-.why-card{position:relative;overflow:hidden;border-radius:4px;min-height:170px}
-.why-card img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(.5)}
-.why-text{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:18px 16px;background:linear-gradient(0deg,rgba(13,43,43,.85) 0%,transparent 60%)}
-.why-text h3{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:400;color:#fff;margin-bottom:4px}
-.why-text p{font-size:10px;color:rgba(255,255,255,.6);line-height:1.4}
+  .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:3px;margin-top:32px;border-radius:12px;overflow:hidden}
+  .about-img-block{position:relative;min-height:260px;overflow:hidden}
+  .about-img-block img{width:100%;height:100%;object-fit:cover;display:block}
+  .about-text-block{background:#f7f7f5;padding:32px 28px;display:flex;flex-direction:column;justify-content:center}
+  .about-text-block h3{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;color:#0d2b2b;margin-bottom:10px;line-height:1.25}
+  .about-text-block p{font-size:12px;color:#666;line-height:1.65;margin-bottom:12px}
+  .about-text-block p:last-child{margin-bottom:0}
 
-.cta-wrap{background:#0d2b2b;padding:56px 40px;text-align:center}
-.cta-wrap .label{color:#5ac3a0;margin-bottom:12px}
-.cta-wrap h2{font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:400;color:#fff;margin-bottom:8px}
-.cta-phone{font-family:'Cormorant Garamond',serif;font-size:36px;font-style:italic;color:#5ac3a0;display:block;margin:16px auto 28px}
-.cta-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .services-wrap{background:#0d2b2b;padding:52px 0}
+  .services-inner{max-width:900px;margin:0 auto;padding:0 40px}
+  .services-inner .label{color:#5ac3a0}
+  .services-inner h2{color:#fff}
+  .svc-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:3px;margin-top:28px}
+  .svc-card{position:relative;overflow:hidden;border-radius:4px;min-height:200px; transition: 0.3s;}
+  .svc-card:hover {cursor:pointer; transform: scale(1.02); box-shadow: 0 4px 15px rgba(0,0,0,0.3);}
+  .svc-card img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(.55)}
+  .svc-overlay{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:16px 14px;background:linear-gradient(0deg,rgba(0,0,0,.7) 0%,transparent 60%)}
+  .svc-overlay h3{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:400;color:#fff;margin-bottom:4px;line-height:1.2}
+  .svc-overlay p{font-size:10px;color:rgba(255,255,255,.6);line-height:1.4}
 
-.footer-strip{background:#061a1a;padding:20px 40px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
-.footer-strip p{font-size:11px;color:rgba(255,255,255,.3)}
-.footer-links{display:flex;gap:14px}
-.footer-links a{font-size:11px;color:rgba(255,255,255,.3);text-decoration:none}
+  .areas-wrap{background:#f7f7f5;padding:52px 40px}
+  .areas-inner{max-width:900px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
+  .areas-map{border-radius:12px;overflow:hidden;min-height:240px}
+  .areas-map img{width:100%;height:100%;object-fit:cover;display:block;border-radius:12px}
+  .areas-pills{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}
+  .pill{background:#fff;border:.5px solid #ddd;border-radius:20px;padding:7px 16px;font-size:12px;font-weight:500;color:#0d2b2b;display:flex;align-items:center;gap:6px}
+  .pill-dot{width:5px;height:5px;background:#5ac3a0;border-radius:50%}
 
-@media(max-width:640px){
-  .hero{grid-template-columns:1fr}
-  .hero-right{display:none}
-  .about-grid{grid-template-columns:1fr}
-  .svc-grid{grid-template-columns:repeat(2,1fr)}
-  .areas-inner{grid-template-columns:1fr}
-  .why-grid{grid-template-columns:1fr 1fr}
-}
-</style>
+  .why-wrap{padding:52px 40px;max-width:900px;margin:0 auto}
+  .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;margin-top:28px}
+  .why-card{position:relative;overflow:hidden;border-radius:4px;min-height:170px}
+  .why-card img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(.5)}
+  .why-text{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:18px 16px;background:linear-gradient(0deg,rgba(13,43,43,.85) 0%,transparent 60%)}
+  .why-text h3{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:400;color:#fff;margin-bottom:4px}
+  .why-text p{font-size:10px;color:rgba(255,255,255,.6);line-height:1.4}
 
-<div class="p">
+  .cta-wrap{background:#0d2b2b;padding:56px 40px;text-align:center}
+  .cta-wrap .label{color:#5ac3a0;margin-bottom:12px}
+  .cta-wrap h2{font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:400;color:#fff;margin-bottom:8px}
+  .cta-phone{font-family:'Cormorant Garamond',serif;font-size:36px;font-style:italic;color:#5ac3a0;display:block;margin:16px auto 28px}
+  .cta-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
 
-<div class="hero">
-  <div class="hero-left">
-    <div class="hero-eyebrow">Melbourne, FL · Brevard County</div>
-    <h1 class="serif">Your home,<br><em>spotless.</em><br>Your time, yours.</h1>
-    <p class="hero-sub">Trusted residential &amp; commercial cleaning for busy people across Melbourne and the Space Coast.</p>
-    <div class="hero-btns">
-      <a class="btn-g" href="https://wa.link/45h8kq">Get a free quote</a>
-      <a class="btn-o" href="tel:+16146959771">+1 (614) 695-9771</a>
+  .footer-strip{background:#061a1a;padding:20px 40px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+  .footer-strip p{font-size:11px;color:rgba(255,255,255,.3)}
+  .footer-links{display:flex;gap:14px}
+  .footer-links a{font-size:11px;color:rgba(255,255,255,.3);text-decoration:none}
+
+  @media(max-width:640px){
+    .hero{grid-template-columns:1fr}
+    .hero-right{display:none}
+    .about-grid{grid-template-columns:1fr}
+    .svc-grid{grid-template-columns:repeat(2,1fr)}
+    .areas-inner{grid-template-columns:1fr}
+    .why-grid{grid-template-columns:1fr 1fr}
+  }
+  </style>
+
+  <div class="p">
+
+  <div class="hero">
+    <div class="hero-left">
+      <div class="hero-eyebrow">Melbourne, FL · Brevard County</div>
+      <h1 class="serif">Your home,<br><em>spotless.</em><br>Your time, yours.</h1>
+      <p class="hero-sub">Trusted residential &amp; commercial cleaning for busy people across Melbourne and the Space Coast.</p>
+      <div class="hero-btns">
+        <a class="btn-g" href="#">Get a free quote</a>
+        <a class="btn-o" href="tel:+16146959771">+1 (614) 695-9771</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img class="hero-img" src="./logo-bg.png" alt="clean bright kitchen" style="opacity: 0.7;"/>
+      <div class="hero-img-overlay"></div>
     </div>
   </div>
-  <div class="hero-right">
-    <img class="hero-img" src="./logo-bg.png" alt="clean bright kitchen" style="opacity: 0.7;"/>
-    <div class="hero-img-overlay"></div>
+
+  <div class="trust">
+    <div class="ti"><div class="td"></div>Fully insured &amp; vetted</div>
+    <div class="ti"><div class="td"></div>Satisfaction guaranteed</div>
+    <div class="ti"><div class="td"></div>Eco-friendly products</div>
+    <div class="ti"><div class="td"></div>Flexible scheduling</div>
+    <div class="ti"><div class="td"></div>5-star rated</div>
   </div>
-</div>
 
-<div class="trust">
-  <div class="ti"><div class="td"></div>Fully insured &amp; vetted</div>
-  <div class="ti"><div class="td"></div>Satisfaction guaranteed</div>
-  <div class="ti"><div class="td"></div>Eco-friendly products</div>
-  <div class="ti"><div class="td"></div>Flexible scheduling</div>
-  <div class="ti"><div class="td"></div>5-star rated</div>
-</div>
-
-<div class="section">
-  <div class="about-grid">
-    <div class="about-img-block">
-      <img src="./clean.jpg" alt="cleaning professional at work"/>
-    </div>
-    <div class="about-text-block">
-      <div class="label">About us</div>
-      <h3 class="serif">Local, trusted,<br>detail-obsessed.</h3>
-      <p>Britt Cleaning Services was built on one simple belief: a clean space changes everything. We serve busy families and businesses across Melbourne and the Space Coast with care, consistency, and pride.</p>
-      <p>Every cleaner on our team is background-checked, trained, and insured. We treat your home like our own.</p>
-    </div>
-  </div>
-</div>
-
-<div class="services-wrap">
-  <div class="services-inner">
-    <div class="label">Services</div>
-    <h2 class="serif">Everything your space needs.</h2>
-    <div class="svc-grid">
-      <div class="svc-card">
-        <img src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=400&q=75" alt="regular cleaning"/>
-        <div class="svc-overlay"><h3 class="serif">Regular cleaning</h3><p>Weekly or bi-weekly — always fresh</p></div>
+  <div class="section">
+    <div class="about-grid">
+      <div class="about-img-block">
+        <img src="./clean.jpg" alt="cleaning professional at work"/>
       </div>
-      <div class="svc-card">
-        <img src="https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&q=75" alt="deep cleaning"/>
-        <div class="svc-overlay"><h3 class="serif">Deep cleaning</h3><p>Top-to-bottom reset</p></div>
-      </div>
-      <div class="svc-card">
-        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=75" alt="office cleaning"/>
-        <div class="svc-overlay"><h3 class="serif">Office cleaning</h3><p>Productive, polished spaces</p></div>
-      </div>
-      <div class="svc-card">
-        <img src="./movein.jpg" alt="move-in cleaning"/>
-        <div class="svc-overlay"><h3 class="serif">Move-in</h3><p>Start fresh, spotless</p></div>
-      </div>
-      <div class="svc-card">
-        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=75" alt="move-out cleaning"/>
-        <div class="svc-overlay"><h3 class="serif">Move-out</h3><p>Leave on the best note</p></div>
+      <div class="about-text-block">
+        <div class="label">About us</div>
+        <h3 class="serif">Local, trusted,<br>detail-obsessed.</h3>
+        <p>Britt Cleaning Services was built on one simple belief: a clean space changes everything. We serve busy families and businesses across Melbourne and the Space Coast with care, consistency, and pride.</p>
+        <p>Every cleaner on our team is background-checked, trained, and insured. We treat your home like our own.</p>
       </div>
     </div>
   </div>
-</div>
 
-<div class="areas-wrap">
-  <div class="areas-inner">
-    <div>
-      <div class="label">Coverage areas</div>
-      <h2 class="serif" style="color:#0d2b2b;font-size:30px;margin-bottom:10px">Serving Brevard County's finest communities.</h2>
-      <p style="font-size:12px;color:#666;margin-bottom:16px">Wherever you are on the Space Coast, we've got you covered — fast, reliable, and always on time.</p>
-      <div class="areas-pills">
-        <div class="pill"><div class="pill-dot"></div>Melbourne, FL</div>
-        <div class="pill"><div class="pill-dot"></div>Viera</div>
-        <div class="pill"><div class="pill-dot"></div>Cocoa Beach</div>
-        <div class="pill"><div class="pill-dot"></div>Melbourne Beach</div>
-        <div class="pill"><div class="pill-dot"></div>Indialantic</div>
+  <div class="services-wrap">
+    <div class="services-inner">
+      <div class="label">Services</div>
+      <h2 class="serif">Everything your space needs.</h2>
+      <div class="svc-grid">
+        <div class="svc-card">
+          <img src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=400&q=75" alt="regular cleaning"/>
+          <div class="svc-overlay"><h3 class="serif">Regular cleaning</h3><p>Weekly or bi-weekly — always fresh</p></div>
+        </div>
+        <div class="svc-card">
+          <img src="https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&q=75" alt="deep cleaning"/>
+          <div class="svc-overlay"><h3 class="serif">Deep cleaning</h3><p>Top-to-bottom reset</p></div>
+        </div>
+        <div class="svc-card">
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=75" alt="office cleaning"/>
+          <div class="svc-overlay"><h3 class="serif">Office cleaning</h3><p>Productive, polished spaces</p></div>
+        </div>
+        <div class="svc-card">
+          <img src="./movein.jpg" alt="move-in cleaning"/>
+          <div class="svc-overlay"><h3 class="serif">Move-in</h3><p>Start fresh, spotless</p></div>
+        </div>
+        <div class="svc-card">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=75" alt="move-out cleaning"/>
+          <div class="svc-overlay"><h3 class="serif">Move-out</h3><p>Leave on the best note</p></div>
+        </div>
       </div>
     </div>
-    <div class="areas-map">
-      <img src="./clean-2.png" alt="Space Coast Florida coastline"/>
+  </div>
+
+  <div class="areas-wrap">
+    <div class="areas-inner">
+      <div>
+        <div class="label">Coverage areas</div>
+        <h2 class="serif" style="color:#0d2b2b;font-size:30px;margin-bottom:10px">Serving Brevard County's finest communities.</h2>
+        <p style="font-size:12px;color:#666;margin-bottom:16px">Wherever you are on the Space Coast, we've got you covered — fast, reliable, and always on time.</p>
+        <div class="areas-pills">
+          <div class="pill"><div class="pill-dot"></div>Melbourne, FL</div>
+          <div class="pill"><div class="pill-dot"></div>Viera</div>
+          <div class="pill"><div class="pill-dot"></div>Cocoa Beach</div>
+          <div class="pill"><div class="pill-dot"></div>Melbourne Beach</div>
+          <div class="pill"><div class="pill-dot"></div>Indialantic</div>
+        </div>
+      </div>
+      <div class="areas-map">
+        <img src="./clean-2.png" alt="Space Coast Florida coastline"/>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="why-wrap">
-  <div class="label">Why choose us</div>
-  <h2 class="serif">The standard you deserve.</h2>
-  <div class="why-grid">
-    <div class="why-card">
-      <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=500&q=75" alt="professional cleaner"/>
-      <div class="why-text"><h3 class="serif">Vetted &amp; insured team</h3><p>Background-checked, fully insured</p></div>
-    </div>
-    <div class="why-card">
-      <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=75" alt="scheduling flexibility"/>
-      <div class="why-text"><h3 class="serif">Flexible scheduling</h3><p>Book around your life</p></div>
-    </div>
-    <div class="why-card">
-      <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=500&q=75" alt="eco products"/>
-      <div class="why-text"><h3 class="serif">Eco-friendly &amp; safe</h3><p>Safe for kids, pets &amp; planet</p></div>
-    </div>
-    <div class="why-card">
-      <img src="./satisfaction.jpg" alt="satisfaction guarantee"/>
-      <div class="why-text"><h3 class="serif">100% satisfaction</h3><p>We make it right, guaranteed</p></div>
-    </div>
-    <div class="why-card">
-      <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&q=75" alt="on time"/>
-      <div class="why-text"><h3 class="serif">Always on time</h3><p>Punctual, every single visit</p></div>
-    </div>
-    <div class="why-card">
-      <img src="./price.jpg" alt="transparent pricing"/>
-      <div class="why-text"><h3 class="serif">Clear pricing</h3><p>No surprises, ever</p></div>
+  <div class="why-wrap">
+    <div class="label">Why choose us</div>
+    <h2 class="serif">The standard you deserve.</h2>
+    <div class="why-grid">
+      <div class="why-card">
+        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=500&q=75" alt="professional cleaner"/>
+        <div class="why-text"><h3 class="serif">Vetted &amp; insured team</h3><p>Background-checked, fully insured</p></div>
+      </div>
+      <div class="why-card">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=75" alt="scheduling flexibility"/>
+        <div class="why-text"><h3 class="serif">Flexible scheduling</h3><p>Book around your life</p></div>
+      </div>
+      <div class="why-card">
+        <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=500&q=75" alt="eco products"/>
+        <div class="why-text"><h3 class="serif">Eco-friendly &amp; safe</h3><p>Safe for kids, pets &amp; planet</p></div>
+      </div>
+      <div class="why-card">
+        <img src="./satisfaction.jpg" alt="satisfaction guarantee"/>
+        <div class="why-text"><h3 class="serif">100% satisfaction</h3><p>We make it right, guaranteed</p></div>
+      </div>
+      <div class="why-card">
+        <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&q=75" alt="on time"/>
+        <div class="why-text"><h3 class="serif">Always on time</h3><p>Punctual, every single visit</p></div>
+      </div>
+      <div class="why-card">
+        <img src="./price.jpg" alt="transparent pricing"/>
+        <div class="why-text"><h3 class="serif">Clear pricing</h3><p>No surprises, ever</p></div>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="cta-wrap">
-  <div class="label">Ready to get started?</div>
-  <h2 class="serif">A cleaner home is one call away.</h2>
-  <span class="cta-phone">+1 (614) 695-9771</span>
-  <div class="cta-btns">
-    <a class="btn-g" href="https://wa.link/45h8kq">Request a free quote</a>
-    <a class="btn-o" href="tel:+16146959771">Call now</a>
-    <a class="btn-o" href="https://wa.link/45h8kq">Schedule today</a>
+  <div class="cta-wrap">
+    <div class="label">Ready to get started?</div>
+    <h2 class="serif">A cleaner home is one call away.</h2>
+    <span class="cta-phone">+1 (614) 695-9771</span>
+    <div class="cta-btns">
+      <a class="btn-g" href="#">Request a free quote</a>
+      <a class="btn-o" href="tel:+16146959771">Call now</a>
+      <a class="btn-o" href="#">Schedule today</a>
+    </div>
   </div>
-</div>
 
-<div class="footer-strip">
-  <p>© 2025 Britt Cleaning Services · Melbourne, FL</p>
-  <div class="footer-links">
-    <a href="#">FAQs</a>
-    <a href="#">Testimonials</a>
-    <a href="#">Book online</a>
-    <a href="#">Instagram</a>
+  <div class="footer-strip">
+    <p>© 2025 Britt Cleaning Services · Melbourne, FL</p>
+    <div class="footer-links">
+      <a href="#">FAQs</a>
+      <a href="#">Testimonials</a>
+      <a href="#">Book online</a>
+      <a href="#">Instagram</a>
+    </div>
   </div>
-</div>
 
-</div>
+  </div>
+</body>
+</html>
